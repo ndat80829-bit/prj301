@@ -9,7 +9,8 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
 public class DBUtils {
-
+    private static String name ="huy";
+    
     private static final String DB_NAME = "UserManagement";
     private static final String USER_NAME = "SA";
     private static final String PASSWORD = "12345";
